@@ -3,7 +3,7 @@ import pandas as pd
 import plotly.express as px
 
 df = pd.read_csv("/mnt/c/Users/galim/Projects/sprint_7/vehicles_us.csv")
-#"C:\Users\galim\Projects\sprint_7\vehicles_us.csv"
+
 
 #crear contenido de la aplicación basada en Streamlit
 #encabezado principal
