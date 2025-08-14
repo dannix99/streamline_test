@@ -2,7 +2,7 @@ import streamlit as st
 import pandas as pd
 import plotly.express as px
 
-df = pd.read_csv("/mnt/c/Users/galim/Projects/sprint_7/vehicles_us.csv")
+df = pd.read_csv("notebooks/vehicles_us.csv")
 
 
 #crear contenido de la aplicación basada en Streamlit
@@ -37,3 +37,4 @@ if check2:
         labels={'condition':'Condición', 'price': 'Precio'}
     )
     st.plotly_chart(fig2)
+
